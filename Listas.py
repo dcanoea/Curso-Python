@@ -1,3 +1,5 @@
+#SINTAXIS nombreLista=[elem0, elem1, elem2]
+
 miLista=["David","Jimena","Luciano","Teo"]
 
 print(miLista[:])#Imprime la Lista completa
