@@ -1,7 +1,6 @@
 #Las tuplas son listas inmutables, es decir, no se pueden modificar después de su creación
 #No permiten añadir, eliminar o mover elementos
 #Permite extraer porciones, pero el resultado es una nueva tupla
-#No permite búquedas (no index), aunque si permite comprobar si se encuentra un elemento en la tupla
 #Más rapidas, menos espacio, formatean Strings, pueden usarse como claves en un diccionario
 
 #SINTAXIS     nombreTupla=(elem0,elem1,elem2)
@@ -44,6 +43,9 @@ print(nombre)
 print(dia)
 print(mes)
 print(anyo)
+
+#Método para buscar el índice donde se encuentra un elemento
+print(miTupla4.index(23))
 
 #Vemos como no se puede modificar ni agregar nada a una tupla
 miTupla.append("Paco")
