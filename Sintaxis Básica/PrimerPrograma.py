@@ -20,7 +20,6 @@ decimal=2.5 #variable numérica float
 print(type(mi_nombre))
 print(type(numero))
 print(type(decimal))
-
 #las " definen los saltos de linea en un str
 mensaje = """Esto es un mensaje
 con tres saltos
